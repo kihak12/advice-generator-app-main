@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    cursor: default;
+}
+
+body{
+    background-color: #202632;
+}
+
+.content{
+    margin-top: 250px;
+}
+
+.back-card{
+    width: 40%;
+    margin: auto;
+    padding: 2rem 3rem 5rem 3rem;
+    border-radius: 40px;
+    background-color: #1F2531;
+}
+.card{
+    position: relative;
+    margin: auto;
+    padding-top: 2rem;
+    background-color: #313A49;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.card h3{
+    color: #55FEAD;
+    font-weight: 400;
+}
+
+.card h2{
+    width: 80%;
+    color: #D1E3ED;
+}
+
+.card img{
+    padding: 20px 0 4rem 0;
+    width: 80%;
+    position: relative;
+}
+
+.btn-next{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #50FFAD;
+    border-radius: 50%;
+    bottom: -30px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.btn-next img{
+    width: 24px;
+    padding: 4px 0 0 0;
+}
+
+.btn-next, .btn-next img{
+    cursor: pointer;
+}
+
+.btn-next:hover{
+    box-shadow: #55feac2f 0 0px 25px 20px;
+}
+
+@media screen and (max-width: 1550px) {
+    .back-card{width: 50%;}
+}
+
+@media screen and (max-width: 1300px) {
+    .back-card{width: 60%;}
+}
+
+@media screen and (max-width: 1150px) {
+    .back-card{width: 70%;}
+}
+
+@media screen and (max-width: 800px) {
+    .back-card{width: 80%;}
+}
+
+@media screen and (max-width: 750px) {
+    .back-card{width: 95%;}
+}
+
+@media screen and (max-width: 600px) {
+    .back-card{width: 100%;padding: 2rem 1rem 4rem 1rem;}
+    .content{margin-top: 75px;}
+}
+
