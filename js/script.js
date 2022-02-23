@@ -24,8 +24,8 @@ let last = 0;
 
     window.addEventListener('resize', function() {
         if(this.window.innerWidth < 800){
-            this.document.getElementById("icon").src = "./../images/pattern-divider-mobile.svg";
+            this.document.getElementById("icon").src = "./images/pattern-divider-mobile.svg";
         }else{
-            this.document.getElementById("icon").src = "./../images/pattern-divider-desktop.svg";
+            this.document.getElementById("icon").src = "./images/pattern-divider-desktop.svg";
         }
     }, true);
